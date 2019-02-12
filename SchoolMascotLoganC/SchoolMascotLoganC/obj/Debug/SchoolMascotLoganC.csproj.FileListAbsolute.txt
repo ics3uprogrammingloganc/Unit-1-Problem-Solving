@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\bin\Debug\SchoolMascotLoganC.exe.config
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\bin\Debug\SchoolMascotLoganC.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\bin\Debug\SchoolMascotLoganC.pdb
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\obj\Debug\SchoolMascotLoganC.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\obj\Debug\SchoolMascotLoganC.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\obj\Debug\SchoolMascotLoganC.frmSchoolMascot.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\obj\Debug\SchoolMascotLoganC.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\obj\Debug\SchoolMascotLoganC.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Cantin, Logan (s299128)\Introduction\SchoolMascotLoganC\SchoolMascotLoganC\obj\Debug\SchoolMascotLoganC.pdb
