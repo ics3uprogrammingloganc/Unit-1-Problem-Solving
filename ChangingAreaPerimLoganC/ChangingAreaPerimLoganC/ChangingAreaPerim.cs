@@ -16,7 +16,7 @@ namespace ChangingAreaPerimLoganC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChangingAreaPerimForm());
+            Application.Run(new frmChangingAreaPerim());
         }
     }
 }

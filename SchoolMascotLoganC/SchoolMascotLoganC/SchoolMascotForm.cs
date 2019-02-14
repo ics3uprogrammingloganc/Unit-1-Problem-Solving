@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Created by: Logan Cantin 
+ * Created on: Febraury 14th, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #8 - School Mascot
+ * This program displays a menu strip with menu items corresponding to different schools. 
+ * When I click on each menu item, the school name and mascot changed accordingly.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

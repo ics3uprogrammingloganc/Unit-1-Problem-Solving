@@ -32,9 +32,9 @@
             this.mniCats = new System.Windows.Forms.ToolStripMenuItem();
             this.mniCat1 = new System.Windows.Forms.ToolStripMenuItem();
             this.mniCat2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pbxCat = new System.Windows.Forms.PictureBox();
+            this.picCat = new System.Windows.Forms.PictureBox();
             this.mnuCat.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxCat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCat)).BeginInit();
             this.SuspendLayout();
             // 
             // mnuCat
@@ -70,29 +70,28 @@
             this.mniCat2.Text = "Cat2";
             this.mniCat2.Click += new System.EventHandler(this.mniCat2_Click);
             // 
-            // pbxCat
+            // picCat
             // 
-            this.pbxCat.Image = global::MovingCatLoganC.Properties.Resources.cat1;
-            this.pbxCat.Location = new System.Drawing.Point(75, 59);
-            this.pbxCat.Name = "pbxCat";
-            this.pbxCat.Size = new System.Drawing.Size(110, 125);
-            this.pbxCat.TabIndex = 1;
-            this.pbxCat.TabStop = false;
-            this.pbxCat.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.picCat.Image = global::MovingCatLoganC.Properties.Resources.cat1;
+            this.picCat.Location = new System.Drawing.Point(75, 59);
+            this.picCat.Name = "picCat";
+            this.picCat.Size = new System.Drawing.Size(110, 125);
+            this.picCat.TabIndex = 1;
+            this.picCat.TabStop = false;
             // 
             // frmMovingCat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(268, 248);
-            this.Controls.Add(this.pbxCat);
+            this.Controls.Add(this.picCat);
             this.Controls.Add(this.mnuCat);
             this.MainMenuStrip = this.mnuCat;
             this.Name = "frmMovingCat";
             this.Text = "Moving Cat by Logan C";
             this.mnuCat.ResumeLayout(false);
             this.mnuCat.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxCat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,7 +103,7 @@
         private System.Windows.Forms.ToolStripMenuItem mniCats;
         private System.Windows.Forms.ToolStripMenuItem mniCat1;
         private System.Windows.Forms.ToolStripMenuItem mniCat2;
-        private System.Windows.Forms.PictureBox pbxCat;
+        private System.Windows.Forms.PictureBox picCat;
     }
 }
 

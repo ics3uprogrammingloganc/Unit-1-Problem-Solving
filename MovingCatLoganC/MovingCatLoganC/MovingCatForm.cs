@@ -25,19 +25,15 @@ namespace MovingCatLoganC
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void mniCat1_Click(object sender, EventArgs e)
         {
-            pbxCat.Image = Properties.Resources.cat1;
+            // Changing
+            picCat.Image = Properties.Resources.cat1;
         }
 
         private void mniCat2_Click(object sender, EventArgs e)
         {
-            pbxCat.Image = Properties.Resources.cat2;
+            picCat.Image = Properties.Resources.cat2;
         }
     }
 }

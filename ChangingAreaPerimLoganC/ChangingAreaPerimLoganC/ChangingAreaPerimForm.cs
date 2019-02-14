@@ -19,26 +19,32 @@ using System.Windows.Forms;
 
 namespace ChangingAreaPerimLoganC
 {
-    public partial class ChangingAreaPerimForm : Form
+    public partial class frmChangingAreaPerim : Form
     {
-        public ChangingAreaPerimForm()
+        public frmChangingAreaPerim()
         {
             InitializeComponent();
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            // Starting the try statement to catch incorrect inputs in the text boxes
             try
             {
+                // Converting the length and width from the text boxes to doubles and setting them to their respective variables
                 double length, width;
                 length = Convert.ToDouble(tbxLength.Text);
                 width = Convert.ToDouble(tbxWidth.Text);
 
-                lblAnswer.Text = "The area of this rectangle is " + Convert.ToString(length * width) + "cm².";
+                // Setting the labels with the area and perimeter
+                lblArea.Text = "The area of this rectangle is " + Convert.ToString(length * width) + "cm².";
+                lblPerimeter.Text = "The perimeter of this rectangle is " + Convert.ToString(2 * (length + width)) + " cm.";
             }
-            catch (FormatException ex)
+            // Runs if there was anything other than numbers in the text boxes
+            catch (FormatException)
             {
-                lblAnswer.Text = "You entered something other than a number. Try again!";
+                // Notifying the user that they entered illeagal input
+                lblArea.Text = "You entered something other than a number. Try again!";
             }
         }
     }
